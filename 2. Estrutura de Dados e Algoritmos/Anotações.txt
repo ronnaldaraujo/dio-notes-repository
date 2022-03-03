@@ -1,0 +1,41 @@
+<!--Estrutura de Dados, arrays e registro-->
+
+Estrutura de Dados
+- Estrutura organizada de dados.
+
+Principais estruturas de dados:
+-- Vetores e Matrizes | Arrays
+Ambos acessados através de um número de indice. Vetores corresponde a uma única dimensão(linha ou coluna), enquanto Matrizes pode conter várias(linha e coluna).
+
+-- Lista
+Armazena dados de um determinado tipo em uma ordem específica.
+Não há necessidade de entrar com um valor fixo, diferente dos arrays.
+Os valores podem crescer ou diminuir, a lista é variável.
+Tipos de lista:
+Lista ligada - Sequência de valores, entrada com um padrão sequencial de valores.
+
+Lista duplamente ligada - Saberá qual o próximo elemento e também o elemento anterior, é bidirencional.
+
+-- Pilha
+Coleção de elementos, permite acesso a somente um item armazenado. Permite acesso apenas uma vez, só pode ser lido ou relido um de cada vez.
+Tipos de pilhas:
+LIFO ou UEPS - O primeiro elemento a ser retirado é o "último" que tiver sido inserido.
+
+FIFO ou PEPS - O primeiro elemento a ser retirado é o "primeiro" que tiver sido inserido.
+
+-- Filas
+Admite remoção de elementos e inserção de novos sujeita à seguinte regra de operação:
+O primeiro objeto a ser inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.
+
+-- Árvore
+Estrutura organizada onde seus elementos ficam em uma hierárquica, onde existe um elemento que fica no topo da árvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou falhas.
+
+-- Tabela Hash
+Tabela de espalhamento, é uma estrutura de dados especial, que associa chaves de pesquisa de valores. Faz com que os elementos fiquem de forma não ordenada dentro do "array" que define a tabela. Espalhar facilita a busca na estrutura de dados, pois a partir de uma chave podemos acessar de forma rápida uma posição do "array".
+
+-- Grafos
+Estruturas que permitem programar a relação entre objetos(vértices ou nós do grafo, os relacionamentos as arestas).
+
+Um registro pode armazenar mais de um tipo de dado, diferentemente de vetores e matrizes.
+Ex: CPF, Nome, Endereço, Contato (tipos de dados diferentes)
+Toda estrutura de registro possui um nome, onde seus campos podem ser acessados por meio do uso do operador ponto.

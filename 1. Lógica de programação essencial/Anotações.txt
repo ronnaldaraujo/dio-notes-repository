@@ -1,0 +1,16 @@
+<!--Lógica de programação essencial-->
+..portugol..
+
+escreva - "Digite algo:"
+leia - Ler algo
++ - Concatenação
+"\n" - Quebra de linha
+== - Igual
+// - Comentário
+se, senao, escolha|caso, caso contrario, pare - Desvios condicionais
+faca, enquanto - Laço de repetição
+++ - +0, +1, +2, +3..(continuação, repetição, que depende do limite e contador estipulado)
+
+Matriz - Coleção de variáveis do mesmo tipo
+Vetores - Matrizes de uma mesma dimensão, mesma linha ou coluna
+Indices - Individualização de cada variável, identifica a posição de uma informação desejada

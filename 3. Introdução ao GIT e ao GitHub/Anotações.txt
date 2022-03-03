@@ -1,0 +1,69 @@
+<!--Introdução ao Git e ao GitHub-->
+
+-- Git:
+Sistema de versionamento de código distribuido.
+
+Por que aprender Git e GitHub?
+1. Controle de versão
+2. Armazenamento em nuvem
+3. Trabalho em equipe
+4. Melhorar seu código
+5. Reconhecimento
+
+CMD(linda de comando windows)
+mkdir - criar repositório ou pasta
+rmdir  deletar repositório
+
+Como o Git funciona por baixo dos panos?
+-- SHA1
+Algoritmo de Hash seguro.
+Identifica os arquivos, se sofreu ou não modificação.
+
+-- Objetos fundamentais:
+> Blobs
+Contém metadados dos objetos, como tipo do objeto, tamanho da string ou tamanho do arquivo, etc..
+
+> Trees / Árvores
+Armazena Blobs, guarda exatamente o nome do arquivo diferente do Blob que só mostra o SHA. Aponta para Blobs e também para outras árvore.
+
+> Commits
+O commit aponta para tudo. Se alterado o SHA de um Blob altera também o da árvore e consequentemente o Commit também é alterado por sua vez. Uma vez alterado o arquivo é alterado toda a estrutura do Commit.
+
+-- Chave SSH
+Forma de segurança para reconhecimento da nossa máquina, estabelecendo com segurança a conexão entre o usuário e o GitHub.
+ls - Listar
+cat - Vizualizar conteúdo
+mv - Mover
+ls -a - Mostra repositórios ocultos
+
+-- git init
+Inicializa um repositório.
+Cria-se um repositório.
+
+-- git add
+Adiciona.
+
+-- git commit
+Comentário sobre atualização.
+
+-- gis status
+Verifica o status do arquivo, informa se estar unmodified, modified ou staged.
+
+-- git add*
+Adicionar todos os arquivos modificados para Staged.
+
+-- Ciclo de vida dos arquivos dentro do Git
+
+//apontamento para diretório remoto
+-- git remote add origin "link"
+-- git remote -v
+-- git push origin master
+
+-- Conflitos no GitHub
+
+-- git pull origin master
+
+
+
+
+
